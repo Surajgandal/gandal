@@ -1,0 +1,10 @@
+function myFunction() {
+    var un = document.forms["myForm"]["under"].value;
+    var pw = document.forms["myForm"]["line"].value;
+    
+if(un=="sanjuvina" && pw=="loveutaide"){
+window.location.href="home/login.html";
+}
+else{
+alert("Invalid Username and Password");
+}
