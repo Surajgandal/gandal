@@ -44,3 +44,12 @@
           el: ".swiper-pagination2",
         },
       });
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  var myCarousel = document.querySelector("#carouselExampleInterval");
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 5000, // Adjust the interval as needed
+    ride: "carousel",
+  });
+});
